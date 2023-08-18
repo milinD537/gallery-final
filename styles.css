@@ -1,0 +1,105 @@
+/* font-family: 'Rubik Dirt', cursive;
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'Rubik Spray Paint', cursive;
+font-family: 'Rubik Vinyl', cursive;
+font-family: 'Rubik Wet Paint', cursive; */
+/* *{
+     border: 1px solid white; 
+}     */
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.0)), url(img/home-page-background.png);
+    /* background-image: url(img/home-page-background.png); */
+    /* background-color: gray;
+    background-blend-mode: multiply; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    text-align: center;
+    font-size: 60px;
+    margin: 25px;
+    font-family: 'Rubik Dirt', cursive;
+    color: gold;
+    text-shadow: 10px 10px 60px black;
+}
+.heading .heading-2{
+    font-size: 20px;
+    font-family: 'Rubik Wet Paint', cursive;
+    text-shadow: 10px 10px 20px black;
+}
+.middle{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    gap: 10px;
+
+}
+.mid{
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 25px;
+    align-self: center;
+    color: gold;
+    text-align: center;
+    text-shadow: 10px 10px 25px black;
+    /* background-color: rgb(1,1,1,0.655); */
+}
+
+.left,.right{
+    flex-direction: column;
+}
+.gif{
+    width: 350px;
+    height: auto;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 3px;
+}
+.select{
+    font-family: 'Rubik Dirt', cursive;
+    text-align: center;
+    color: gold;
+    font-size: 40px;
+    margin: 10px;
+    text-shadow: 10px 10px 40px black;
+    background-color: rgb(1,1,1,0.655);
+}
+ul{
+    margin: 0;
+    padding: 10px 30px; 
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap; 
+    text-align: center;
+    justify-content: center;
+}
+.thumbnail{
+    width: 400px;
+    /* display: block;  */
+    box-shadow: 5px 5px 50px black;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    transition: transform .5s ease; 
+    
+}
+.cont:hover img{
+    transform: scale(1.05);
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: gold;
+    text-shadow: 5px 5px 10px black;
+    font-family: 'Rubik Dirt', cursive;
+    
+}
+.games{
+    margin-bottom: 12px;
+}
+
+
+
